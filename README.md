@@ -1,6 +1,6 @@
 # CUPK 2023级暑期实训
 
-暂时更新23级小学期包含学习通作业、简要讲解等源代码，后续尽量更新计算机类学习资料<br>
+暂时更新23级小学期包含学习通作业、简要讲解~~（限于水平，大概没用，代码多为AIGC）~~等，后续尽量更新计算机类学习资料<br>
 ***刚刚起步，欢迎大家一起完善，最有互联网精神的一集~~（手动滑稽）~~***
 
 **欢迎贡献！**
@@ -58,8 +58,7 @@ Issue、PR、纠错、资料、选课/考试攻略，完全欢迎！
 - [南京大学课程复习资料](https://github.com/idealclover/NJU-Review-Materials)
 - [郑州大学课程复习资料](https://github.com/CooperNiu/ZZU-Courses-Resource)
 - [广东工业大学计算机学院课程攻略](https://github.com/brenner8023/gdut-course)
-
-
+- [数据结构小学期（中油克）_北城学神的博客-CSDN博客](https://blog.csdn.net/weixin_63699880/category_12301700.html)
 
 ## 申明
 
