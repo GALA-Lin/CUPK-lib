@@ -1,8 +1,4 @@
-# Question
-
-我是C++初学者，请你帮我解释一下这段代码，如何实现图的构建和路径查找
-
-# Answer
+# README
 
 这段代码旨在构建图结构并判断在该图中两个节点之间是否存在路径。下面是对代码的详细解释：
 
@@ -13,7 +9,7 @@
    #include <unordered_map>
    #include <unordered_set>
    #include <sstream>
-
+   
    using namespace std;
    ```
 
