@@ -1,0 +1,10 @@
+A
+B/E/D
+B
+A/C
+C
+B/D/E
+D
+A/C/E
+E
+A/C/D
