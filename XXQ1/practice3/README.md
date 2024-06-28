@@ -117,11 +117,24 @@ bool isPathExist(const string& start, const string& end) {
     return dfs(start, end, visited);
 }
 ```
+其中
+```cpp
+    unordered_set<string> visited;
+```
+
+- **`unordered_set<string>`**
+  
+  这是C++标准库中提供的一种集合数据结构。`unordered_set`存储的是一组唯一的元素（没有重复的元素），而且元素之间没有特定的顺序。这里使用的是`string`类型的元素，也就是说，这个集合会存储一组唯一的字符串。
+  
+  - **`visited`**
+  
+  变量名`visited`是该`unordered_set`集合的名字。在这个上下文中，`visited`是用来记录图遍历过程中已经访问过的节点的集合。
 
 - **功能**：
+  
   - 检查从起点 `start` 到终点 `end` 是否存在路径。
-  - 利用深度优先搜索 (DFS) 算法。
-
+  - 调用深度优先搜索 (DFS) 算法。
+  
 - **输入**：
   - `start`：起始节点。
   - `end`：目标节点。
