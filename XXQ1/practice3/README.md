@@ -24,42 +24,6 @@ Graph(int n) : n(n) {}
 
 - **功能**：构造函数用于初始化图的节点数量 `n`。这里的 `n` 被存储为类的一个成员变量。
 
-### addEdge 方法
-
-```cpp
-void addEdge(const string& node, const string& neighbors) {
-    stringstream ss(neighbors);
-    string neighbor;
-    while (getline(ss, neighbor, '/')) {
-        adjList[node].push_back(neighbor);
-    }
-}
-```
-
-- **功能**：
-  - 将以 `/` 分隔的多个邻居节点添加到图中，表示边的联系。
-  - 用 `stringstream` 对输入字符串进行处理，逐个读取邻接点。
-
-- **输入**：
-  - `node`：当前节点。
-  - `neighbors`：以 `/` 为分隔符的多个邻接点字符串。
-
-### isPathExist 方法
-
-```cpp
-bool isPathExist(const string& start, const string& end) {
-    unordered_set<string> visited;
-    return dfs(start, end, visited);
-}
-```
-
-- **功能**：
-  - 检查从起点 `start` 到终点 `end` 是否存在路径。
-  - 利用深度优先搜索 (DFS) 算法。
-
-- **输入**：
-  - `start`：起始节点。
-  - `end`：目标节点。
 
 ### 私有成员变量和方法
 
@@ -124,12 +88,50 @@ bool dfs(const string& start, const string& end, unordered_set<string>& visited)
     - 遍历 `start` 的邻居节点，递归调用 `dfs` 进行深度搜索。
     - 若找到一条路径返回 `true`，否则返回 `false`。
 
+
+3. ### addEdge 方法
+
+```cpp
+void addEdge(const string& node, const string& neighbors) {
+    stringstream ss(neighbors);
+    string neighbor;
+    while (getline(ss, neighbor, '/')) {
+        adjList[node].push_back(neighbor);
+    }
+}
+```
+
+- **功能**：
+  - 将以 `/` 分隔的多个邻居节点添加到图中，表示边的联系。
+  - 用 `stringstream` 对输入字符串进行处理，逐个读取邻接点。
+
+- **输入**：
+  - `node`：当前节点。
+  - `neighbors`：以 `/` 为分隔符的多个邻接点字符串。
+
+### isPathExist 方法
+
+```cpp
+bool isPathExist(const string& start, const string& end) {
+    unordered_set<string> visited;
+    return dfs(start, end, visited);
+}
+```
+
+- **功能**：
+  - 检查从起点 `start` 到终点 `end` 是否存在路径。
+  - 利用深度优先搜索 (DFS) 算法。
+
+- **输入**：
+  - `start`：起始节点。
+  - `end`：目标节点。
+
 ### 小结
 
 该代码定义了一个 `Graph` 类，用于表示一个图结构，并提供了以下主要功能：
 1. **添加边**：使用 `addEdge` 方法根据输入的字符串创建节点及其邻居列表。
 2. **检查路径可达性**：使用 `isPathExist` 方法，基于深度优先搜索算法检查两个节点之间是否存在路径。
-
+3. 
 通过这些功能，用户可以构建一个图并检查任意两个节点之间的连通性。
 ## 3. **主函数：**
    ```cpp
