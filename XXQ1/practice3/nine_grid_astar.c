@@ -186,6 +186,6 @@ int main() {
     };
 
     astar_search(initial);  // 调用A*算法进行搜索
-    printf("Total steps from initial to target: %d\n", count);  // 打印步数
+    printf("Total steps from initial to target: %d\n", count -1);  // 打印步数
     return 0;
 }
