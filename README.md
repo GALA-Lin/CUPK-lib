@@ -13,14 +13,9 @@
 
 Issue、PR、纠错、资料、选课/考试攻略等等学习相关的资源，完全欢迎！
 
-来自大家的star、维护和贡献，才是让这个**CUPK 计算机摸鱼攻略** 继续存在的动力~
+来自大家的star、维护和贡献，才是让这个**CUPK 计算机摸鱼攻略** 继续存在的动力~<br>
 <img src="https://github.com/GALA-Lin/CUPK-lib/blob/main/tip.jpg" alt="赞赏码" width ="400">
-
-
-
 ## 操作方法
-
-
 
 提交 PR->Fork 本项目，然后在 GitHub 网页端点击 Upload File 上传文件，发起 PR 即可。留意一下项目的文件组织喔。
 
