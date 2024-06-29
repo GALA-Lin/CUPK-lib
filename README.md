@@ -13,7 +13,7 @@
 
 Issue、PR、纠错、资料、选课/考试攻略等等学习相关的资源，完全欢迎！
 
-来自大家的star、维护和贡献，才是让这个**CUPK 计算机摸鱼攻略** 继续存在的动力~<img src="E:\CUPK-lib\tip.jpg" alt="赞赏码" width ="400">
+来自大家的star、维护和贡献，才是让这个**CUPK 计算机摸鱼攻略** 继续存在的动力~<img src="https://github.com/GALA-Lin/CUPK-lib/blob/main/tip.jpg" alt="赞赏码" width ="400">
 
 
 
