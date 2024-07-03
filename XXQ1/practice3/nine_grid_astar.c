@@ -180,9 +180,9 @@ void astar_search(int initial[N][N]) {
 
 int main() {
     int initial[N][N] = {
-        {1, 4, 3},
-        {2, 7, 5},
-        {6, 0, 8}
+        {2, 8, 3},
+        {1, 6, 4},
+        {7, 0, 5}
     };
 
     astar_search(initial);  // 调用A*算法进行搜索
