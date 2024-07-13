@@ -1,9 +1,11 @@
 #include<iostream>
 using namespace std;
+
 typedef struct node{
     int data;
     node *next,*prev;
 }Node ,*link;
+
 link create(int x){
     link temp=new node;
     temp->data=x;
