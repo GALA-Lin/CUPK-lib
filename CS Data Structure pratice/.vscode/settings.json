@@ -1,6 +1,20 @@
 {
     "files.associations": {
         "*.embeddedhtml": "html",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "stdio.h": "c",
+        "algorithm": "c",
+        "CESHI_BEIFEN.C": "cpp",
+        "functional": "c",
+        "stdlib.h": "c",
+        "array": "c",
+        "deque": "c",
+        "string": "c",
+        "unordered_map": "c",
+        "unordered_set": "c",
+        "vector": "c",
+        "string_view": "c",
+        "initializer_list": "c",
+        "string.h": "c"
     }
 }
