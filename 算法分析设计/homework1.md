@@ -157,3 +157,37 @@ void quick_sort(int q[], int l, int r)
     quick_sort(q, l, j), quick_sort(q, j + 1, r);
 }
 ```
+
+## 4.5 qselect Average case O(n);Best case O(n);Worst case O(n^2)
+
+```cpp
+int partition(int a[], int left, int right, int pivot)
+{
+    int i = left, j = right;
+    while (i <= j)
+    {
+        while (a[i] < pivot)
+            i++;
+        while (a[j] > pivot)
+            j--;
+        if (i < j)
+            swap(a[i], a[j]);
+        else
+            return j;
+    }
+    return -1;
+}
+int quickSelect(int a[], int left, int right, int k)
+{
+    if (left == right)
+        return a[left];
+    int pivot = a[left + right >> 1];
+    int pos = partition(a, left, right, pivot); // 找到pivot的位置
+    if (pos == k - 1)
+        return a[pos];
+    else if (pos > k - 1)            // pivot在k左边
+        return quickSelect(a, left, pos - 1, k);
+    else                            // pivot在k右边
+        return quickSelect(a, pos + 1, right, k);
+}
+```
