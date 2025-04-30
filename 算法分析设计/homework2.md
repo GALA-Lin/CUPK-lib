@@ -230,9 +230,12 @@ FUNCTION quickSelect(a[], left, right, k) -> int:
 
 
 
-
-
 # 6. Closest point pair algorithm
+
+```
+```
+
+
 
 
 
