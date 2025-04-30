@@ -189,7 +189,7 @@ FUNCTION quick_sort(q[], l, r):
 # 5. Linear time selection algorithm
 
 ```
-# 分区函数（Hoare分区方案变体）
+# 分区函数
 FUNCTION partition(a[], left, right, pivot) -> int:
     i = left                      # 左扫描指针 [关键注释：初始化为左边界]
     j = right                     # 右扫描指针 [初始化为右边界]
@@ -233,6 +233,67 @@ FUNCTION quickSelect(a[], left, right, k) -> int:
 # 6. Closest point pair algorithm
 
 ```
+# 点结构定义（包含x,y坐标）
+CLASS Point:
+    x: int
+    y: int
+
+# 计算两点欧式距离
+FUNCTION dist(p1: Point, p2: Point) -> float:
+    RETURN sqrt((p1.x-p2.x)^2 + (p1.y-p2.y)^2)
+
+# 暴力求解最近点对（当n<=3时使用）
+FUNCTION bruteForce(P: list[Point]) -> float:
+    minDist = INFINITY
+    FOR i FROM 0 TO len(P)-1:
+        FOR j FROM i+1 TO len(P)-1:  # 避免重复计算
+            minDist = min(minDist, dist(P[i], P[j]))
+    RETURN minDist
+
+# 处理最近点对
+FUNCTION stripClosest(strip: list[Point], d: float) -> float:
+    sort(strip, key=Point.y)  # 按y坐标排序优化比较
+    minDist = d
+    FOR i FROM 0 TO len(strip)-1:
+        # 只需检查后续y差<d的点（最多6个点）
+        FOR j FROM i+1 TO min(i+7, len(strip)-1):
+            IF (strip[j].y - strip[i].y) >= minDist: BREAK
+            minDist = min(minDist, dist(strip[i], strip[j]))
+    RETURN minDist
+
+# 分治递归核心函数
+FUNCTION closestUtil(P: list[Point]) -> float:
+    n = len(P)
+    IF n <= 3:
+        RETURN bruteForce(P)  # 递归终止条件
+    
+    mid = n // 2
+    midPoint = P[mid]  # 分割点（已按x排序）
+    
+    # 分治左右子集
+    Pl = P[0 : mid]    # 左半部分点集
+    Pr = P[mid : n]    # 右半部分点集
+    
+    dl = closestUtil(Pl)  # 左递归
+    dr = closestUtil(Pr)  # 右递归
+    d = min(dl, dr)       # 当前最小距离
+    
+    # 收集|x - mid_x| < d
+    strip = []
+    FOR p IN P:
+        IF abs(p.x - midPoint.x) < d:
+            strip.append(p)
+    
+    # 返回最小距离
+    RETURN min(d, stripClosest(strip, d))
+
+# 主入口函数
+FUNCTION closest(P: list[Point]) -> float:
+    sort(P, key=Point.x)  # 预处理：按x坐标排序
+    RETURN closestUtil(P)
+
+# 时间复杂度：O(n log n)
+# 空间复杂度：O(n) 递归栈和临时数组
 ```
 
 
