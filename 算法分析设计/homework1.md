@@ -461,5 +461,4 @@ float closest(Point P[], int n)
 2. Recursively find DL(left) & DR(right) 
 3. D = minimum of DL and DR 
 
-**Merge step:** Check points within D-width strip along median line (sorted by y), compare adjacent points; **Merge step achieves O(n) time via y-sorting and limited comparisons
-**
+**Merge step:** Check points within D-width strip along median line (sorted by y), compare adjacent points; **Merge step achieves O(n) time via y-sorting and limited comparisons**
