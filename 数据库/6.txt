@@ -1,0 +1,133 @@
+//5.
+CREATE PROCEDURE dbo.查询成本运行情况
+    @单位代码 VARCHAR(10),
+    @起始日期 DATE,
+    @结束日期 DATE
+AS
+BEGIN
+    DECLARE @单位类型 VARCHAR(10);
+    DECLARE @单位名称 VARCHAR(50);
+
+    -- 判断单位类型
+    IF LEN(@单位代码) = 4
+        SET @单位类型 = '采油厂';
+    ELSE IF LEN(@单位代码) = 6
+        SET @单位类型 = '采油矿';
+    ELSE IF LEN(@单位代码) = 8
+        SET @单位Type = '采油队';
+
+    SELECT @单位Name = 单位名称 FROM 单位代码表 WHERE 单位代码 = @单位Code;
+
+    PRINT '***' + @单位Name + '**时间---**时间成本运行情况';
+
+    SELECT
+        SUM(预算金额) AS 预算金额,
+        SUM(结算金额) AS 结算金额,
+        SUM(入账金额) AS 入账金额,
+        SUM(预算金额) - SUM(结算金额) AS 未结算金额,
+        SUM(结算金额) - SUM(入账金额) AS 未入账金额
+    FROM 作业项目表
+    WHERE 预算单位 = @单位Code AND 预算日期 BETWEEN @起始日期 AND @结束日期;
+END
+
+-- ⑴ 插入数据时自动计算结算金额
+CREATE TRIGGER dbo.计算结算金额_插入
+ON 作业项目表
+AFTER INSERT
+AS
+BEGIN
+    UPDATE 作业项目表
+    SET 结算金额 = 材料费 + 人工费 + 设备费 + 其它费用
+    FROM 作业项目表
+    JOIN inserted ON 作业项目表.单据号 = inserted.单据号;
+END
+
+-- ⑵ 修改数据时自动更新结算金额
+CREATE TRIGGER dbo.计算结算金额_更新
+ON 作业项目表
+AFTER UPDATE
+AS
+BEGIN
+    IF UPDATE(材料费) OR UPDATE(人工费) OR UPDATE(设备费) OR UPDATE(其他费用)
+    BEGIN
+        UPDATE 作业项目表
+        SET 结算金额 = 材料费 + 人工费 + 设备费 + 其它费用
+        FROM 作业项目表
+        JOIN inserted ON 作业项目表.单据号 = inserted.单据号;
+    END
+END
+
+-- ⑶ 删除数据时自动删除材料明细
+CREATE TRIGGER dbo.删除材料明细
+ON 作业项目表
+AFTER DELETE
+AS
+BEGIN
+    DELETE FROM 材料明细表
+    WHERE 单据号 IN (SELECT 单据号 FROM deleted);
+END
+
+//6.
+-- 创建用户 user11
+CREATE USER user11 FOR LOGIN user11
+WITH DEFAULT_SCHEMA = dbo;
+
+
+-- ⑴ 建立采油一矿的作业项目的视图
+CREATE VIEW [dbo].[采油一矿作业项目视图] AS
+SELECT *
+FROM 作业项目表
+WHERE 预算单位 IN (
+    SELECT 单位代码
+    FROM 单位代码表
+    WHERE 单位名称 LIKE '采油一矿%'
+);
+
+-- 授予 user11 查询权限
+GRANT SELECT ON [dbo].[采油一矿作业项目视图] TO user11;
+
+-- 以 user11 身份查询视图（需要切换到 user11 用户）
+SELECT * FROM [dbo].[采油一矿作业项目视图];
+
+-- 以其他用户身份查询视图
+SELECT * FROM [dbo].[采油一矿作业项目视图];
+
+-- ⑵ 创建用户 user12
+CREATE USER user12 FOR LOGIN user12;
+WITH DEFAULT_SCHEMA = dbo;
+-- 以 user12 身份执行存储过程（需要切换到 user12 用户）
+EXEC dbo.查询成本运行情况 @单位代码 = '112201', @起始日期 = '2018-05-01', @结束日期 = '2018-05-31';
+
+-- 授予 user12 执行存储过程的权限
+GRANT EXECUTE ON dbo.查询成本运行情况 TO user12;
+
+-- 再次以 user12 身份执行存储过程
+EXEC dbo.查询成本运行情况 @单位代码 = '112201', @起始日期 = '2018-05-01', @结束日期 = '2018-05-31';
+
+-- ⑶ 定义触发器，限制只能在工作时间内更新作业项目表
+CREATE TRIGGER dbo.工作时间更新限制
+ON 作业项目表
+FOR UPDATE
+AS
+BEGIN
+    DECLARE @当前时间 TIME = CONVERT(TIME, GETDATE());
+    DECLARE @开始时间 TIME = '09:00:00';
+    DECLARE @结束时间 TIME = '17:00:00';
+
+    IF NOT (@当前时间 BETWEEN @开始时间 AND @结束时间)
+    BEGIN
+        ROLLBACK TRANSACTION;
+        PRINT '只能在工作时间（09:00-17:00）内更新数据';
+    END
+END;
+
+-- 验证触发器
+-- 尝试在工作时间外更新数据
+UPDATE 作业项目表
+SET 预算金额 = 预算金额 * 1.1
+WHERE 单据号 = 'zy2018001';
+
+-- 在工作时间内更新数据
+UPDATE 作业项目表
+SET 预算金额 = 预算金额 * 1.1
+WHERE 单据号 = 'zy2018001';
