@@ -28,22 +28,22 @@ Issue、PR、纠错、资料、选课/考试攻略等等学习相关的资源，
 > 如果你认为本仓库的一些文件侵犯了您的权益，请 [向我们发送邮件](mailto:1563883475@qq.com) 。我们将会从仓库中彻底清除这些文件。
 >
 > *PS:对于教师的评价请一律使用姓名拼音首字母缩写。*
->
-> ## 项目许可
-> 
-> 由贡献者编写的部分的许可如下：
->  [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
->
-> [CC-BY-NC-SA：署名-非商业性使用-相同方式共享](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)
->
-> [![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
->
-> [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
-> [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
->
-> **其他部分的版权归属于其各自的作者。**
->
-> 资料仅供参考，请自己判断其适用性。 
+
+## 项目许可
+
+由贡献者编写的部分的许可如下：
+ [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+
+[CC-BY-NC-SA：署名-非商业性使用-相同方式共享](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
+
+**其他部分的版权归属于其各自的作者。**
+
+资料仅供参考，请自己判断其适用性。 
 
 
 ## 友情链接
