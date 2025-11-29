@@ -41,10 +41,10 @@ This review covers core knowledge from Chapter 1 (Introduction) and Chapter 2 (S
 
 | Question Type问题类型 | Typical Topics & Examples典型主题与示例 |
 | --- | --- |
-| True/False判断题 | \- "Universal SE notations/methods exist" (False)- "通用软件工程符号/方法存在"（错误）- "SE supports individual programming" (False)- "软件工程支持个人编程"（错误）- "SE focuses solely on design/implementation" (False)- "软件工程仅关注设计/实现"（错误） |
-| Fill-in-the-Blank填空题 | \- Software failure factors: \[software engineering/SE/软件工程\]- 软件故障因素：\[软件工程/SE/软件工程\]- SE activities: \[software evolution/software maintenance/软件演化/维护\]- 软件工程活动：\[软件演化/维护\]- Customized product spec owner: \[customer/客户\]- 定制产品规格负责人：\[客户\]- General issue affecting software: \[scale/规模\]- 影响软件的普遍问题：\[规模\]- Professional responsibility: \[competence/工作能力\]- 专业责任：\[工作能力\] |
+| True/False判断题 | \- "Universal SE notations/methods exist" (False)<br />- "通用软件工程符号/方法存在"（错误）<br />- "SE supports individual programming" (False)<br />- "软件工程支持个人编程"（错误）<br />- "SE focuses solely on design/implementation" (False)<br />- "软件工程仅关注设计/实现"（错误） |
+| Fill-in-the-Blank填空题 | \- Software failure factors: \[software engineering/SE/软件工程\]<br />- 软件故障因素：\[软件工程/SE/软件工程\]<br />- SE activities: \[software evolution/software maintenance/软件演化/维护\]<br />- 软件工程活动：\[软件演化/维护\]<br />- Customized product spec owner: \[customer/客户\]<br />- 定制产品规格负责人：\[客户\]<br />- General issue affecting software: \[scale/规模\]<br />- 影响软件的普遍问题：\[规模\]<br />- Professional responsibility: \[competence/工作能力\]<br />- 专业责任：\[工作能力\] |
 | Multiple Choice选择题 | \- Components of professional software (A: programs; B: documentation; C: libraries; D: configuration data)- 专业软件的组成部分（A：程序；B：文档；C：库；D：配置数据） |
-| Single Choice单选题 | \- Key factor for SE methods (B: Type of application being developed)- SE 方法的关键因素（B：正在开发的应用类型）- False statement about Web-based SE (C: Conventional SE ideas no longer apply)- 关于基于 Web 的软件工程的错误说法（C：传统的软件工程思想不再适用）- Application type of wilderness weather station (A: Data collection systems)- 野外气象站的应用类型（A：数据收集系统） |
+| Single Choice单选题 | \- Key factor for SE methods (B: Type of application being developed)<br />- SE 方法的关键因素（B：正在开发的应用类型）<br />- False statement about Web-based SE (C: Conventional SE ideas no longer apply)<br />- 关于基于 Web 的软件工程的错误说法（C：传统的软件工程思想不再适用）<br />- Application type of wilderness weather station (A: Data collection systems)<br />- 野外气象站的应用类型（A：数据收集系统） |
 
 ## Chapter 2: Software Processes
 第 2 章：软件过程
@@ -90,10 +90,10 @@ This review covers core knowledge from Chapter 1 (Introduction) and Chapter 2 (S
 
 | Question Type问题类型 | Typical Topics & Examples典型主题与示例 |
 | --- | --- |
-| True/False判断题 | \- "Development & maintenance are separate processes" (False)- "开发与维护是分离的过程"（错误）- "High-priority requirements in early increments get most testing" (False)- "早期增量中的高优先级需求得到最多测试"（错误） |
-| Fill-in-the-Blank填空题 | \- Process activity element: \[ordering/次序\]- 处理活动元素：\[次序\]- Process model: \[Integration and configuration/集成和配置\]- 处理模型：\[集成和配置\]- Debugging: \[Debugging/调试\]- 调试：\[调试\]- Core V&V activity: \[testing/system testing/测试\]- 核心 V&V 活动：\[测试\]- 3-stage testing: \[System testing/系统测试\]- 三阶段测试：\[系统测试\]- Change tolerance method: \[Change tolerance/变更容忍\]- 变更容忍方法：\[变更容忍\]- Coping with change: \[Incremental delivery/增量式交付\]- 应对变更：\[增量式交付\]- Improve program structure: \[Refactoring/重构\]- 改进程序结构：\[重构\]- Process improvement approach: \[agile/敏捷\]- 流程改进方法：\[敏捷\]- SEI maturity cycle: \[analyze/分析\]- SEI 成熟度周期：\[分析\]- SEI maturity level: \[Managed/被管理级\]- SEI 成熟度级别：\[被管理级\] |
-| Multiple Choice选择题 | \- Waterfall model applicable scenarios (A: Stable requirements; B: Limited changes; D: Large multi-site projects)- 滚动式模型适用场景（A：需求稳定；B：变更有限；D：大型多站点项目）- Incremental development benefits (A: Reduced change cost; B: Faster feedback; C: Rapid delivery)- 增量开发的优势（A：降低变更成本；B：更快反馈；C：快速交付）- Process description components (A: Pre-conditions; B: Products; C: Roles; D: Post-conditions)- 流程描述组件（A：前置条件；B：产品；C：角色；D：后置条件） |
-| Single Choice单选题 | \- False about Integration & configuration (A: User requirements are fully satisfied)- 关于集成与配置的错误（A：用户需求完全满足）- False about software specification (B: Developers need high-level spec; users need detailed)- 关于软件规格的错误（B：开发者需要高层级规格；用户需要详细规格）- Incremental delivery unsuitable scenario (A: Replace existing system)- 增量交付不适用场景（A：替换现有系统）- Beta testing participants (D: Selected users)- Beta 测试参与者（D：选定用户） |
+| True/False判断题 | \- "Development & maintenance are separate processes" (False)<br />- "开发与维护是分离的过程"（错误）<br />- "High-priority requirements in early increments get most testing" (False)<br />- "早期增量中的高优先级需求得到最多测试"（错误） |
+| Fill-in-the-Blank填空题 | \- Process activity element: \[ordering/次序\]<br />- 处理活动元素：\[次序\]<br />- Process model: \[Integration and configuration/集成和配置\]<br />- 处理模型：\[集成和配置\]<br />- Debugging: \[Debugging/调试\]<br />- 调试：\[调试\]<br />- Core V&V activity: \[testing/system testing/测试\]<br />- 核心 V&V 活动：\[测试\]<br />- 3-stage testing: \[System testing/系统测试\]<br />- 三阶段测试：\[系统测试\]<br />- Change tolerance method: \[Change tolerance/变更容忍\]<br />- 变更容忍方法：\[变更容忍\]<br />- Coping with change: \[Incremental delivery/增量式交付\]<br />- 应对变更：\[增量式交付\]<br />- Improve program structure: \[Refactoring/重构\]<br />- 改进程序结构：\[重构\]<br />- Process improvement approach: \[agile/敏捷\]<br />- 流程改进方法：\[敏捷\]<br />- SEI maturity cycle: \[analyze/分析\]<br />- SEI 成熟度周期：\[分析\]<br />- SEI maturity level: \[Managed/被管理级\]<br />- SEI 成熟度级别：\[被管理级\] |
+| Multiple Choice选择题 | \- Waterfall model applicable scenarios (A: Stable requirements; B: Limited changes; D: Large multi-site projects)<br />- 滚动式模型适用场景（A：需求稳定；B：变更有限；D：大型多站点项目）<br />- Incremental development benefits (A: Reduced change cost; B: Faster feedback; C: Rapid delivery)<br />- 增量开发的优势（A：降低变更成本；B：更快反馈；C：快速交付）<br />- Process description components (A: Pre-conditions; B: Products; C: Roles; D: Post-conditions)<br />- 流程描述组件（A：前置条件；B：产品；C：角色；D：后置条件） |
+| Single Choice单选题 | \- False about Integration & configuration (A: User requirements are fully satisfied)<br />- 关于集成与配置的错误（A：用户需求完全满足）<br />- False about software specification (B: Developers need high-level spec; users need detailed)<br />- 关于软件规格的错误（B：开发者需要高层级规格；用户需要详细规格）<br />- Incremental delivery unsuitable scenario (A: Replace existing system)<br />- 增量交付不适用场景（A：替换现有系统）<br />- Beta testing participants (D: Selected users)<br />- Beta 测试参与者（D：选定用户） |
 
 ## Subjective Ideological & Political Question
 主观意识形态与政治问题
@@ -184,16 +184,16 @@ This review covers core knowledge from Chapter 1 (Introduction) and Chapter 2 (S
 ### Part 2: Fill-in-the-Blank (1 point each, total 5 points)
 第二部分：填空题（每题 1 分，共 5 分）
 
-1.  The four fundamental software engineering activities are software specification, software design and development, software validation, and \_\_\_\_\_\_\_\_\_\_\_\_\_\_ (软件演化/software evolution).
-    软件工程的四个基本活动是软件规范、软件设计和开发、软件验证和 \_\_\_\_\_\_\_\_\_\_\_\_\_\_（软件演化）。
-2.  The three core software process models introduced in the textbook are the waterfall model, incremental development, and \_\_\_\_\_\_\_\_\_\_\_\_\_\_ (集成和配置/Integration and configuration).
-    教材中介绍的三种核心软件过程模型是瀑布模型、增量开发和 \_\_\_\_\_\_\_\_\_\_\_\_\_\_（集成和配置）。
-3.  The three-stage testing process includes component testing, \_\_\_\_\_\_\_\_\_\_\_\_\_\_ (系统测试/System testing), and customer testing.
-    三阶段测试过程包括组件测试、 \_\_\_\_\_\_\_\_\_\_\_\_\_\_（系统测试）和客户测试。
-4.  The two approaches to coping with changing requirements are system prototyping and \_\_\_\_\_\_\_\_\_\_\_\_\_\_ (增量式交付/Incremental delivery).
-    应对不断变化需求的两种方法是系统原型设计和（增量式交付）。
-5.  The SEI process maturity model has five levels: Initial, \_\_\_\_\_\_\_\_\_\_\_\_\_\_ (被管理级/Managed), Defined, Quantitatively managed, and Optimizing.
-    SEI 过程成熟度模型有五个级别：初始级、（被管理级）、定义级、定量管理级和优化级。
+1.  The four fundamental software engineering activities are **software specification, software design and development, software validation, and \_\_\_\_\_\_\_\_\_\_\_\_\_\_ (软件演化/software evolution).**
+    软件工程的四个基本活动是**软件规范、软件设计和开发、软件验证和 \_\_\_\_\_\_\_\_\_\_\_\_\_\_（软件演化）。**
+2.  The three core software process models introduced in the textbook ar**e the waterfall model, incremental development, and \_\_\_\_\_\_\_\_\_\_\_\_\_\_ (集成和配置/Integration and configuration).**
+    教材中介绍的三种核心软件过程模型是**瀑布模型、增量开发和 \_\_\_\_\_\_\_\_\_\_\_\_\_\_（集成和配置）**。
+3.  The three-stage testing process includes **component testing, \_\_\_\_\_\_\_\_\_\_\_\_\_\_ (系统测试/System testing), and customer testing**.
+    三阶段测试过程包括**组件测试、 \_\_\_\_\_\_\_\_\_\_\_\_\_\_（系统测试）和客户测试。**
+4.  The two approaches to coping with changing requirements are **system prototyping and \_\_\_\_\_\_\_\_\_\_\_\_\_\_ (增量式交付/Incremental delivery).**
+    应对不断变化需求的两种方法是**系统原型设计和（增量式交付）。**
+5.  The SEI process maturity model has five levels: **Initial, \_\_\_\_\_\_\_\_\_\_\_\_\_\_ (被管理级/Managed), Defined, Quantitatively managed, and Optimizing.**
+    SEI 过程成熟度模型有五个级别：**初始级、（被管理级）、定义级、定量管理级和优化级。**
 
 ### Part 3: Multiple Choice (2 points each, partial score for incomplete selection, total 6 points)
 第三部分：选择题（每题 2 分，部分选择得部分分数，总分 6 分）

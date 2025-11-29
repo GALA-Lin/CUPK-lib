@@ -1,0 +1,18 @@
+免登录
+PacketTracer.exe 复制到 CiscoPacketTracer8.1.1 安装路径的 bin 路径下 
+
+
+汉化
+1.
+Simplified Chinese.ptl 文件 复制到  CiscoPacketTracer8.1.1 安装路径的 languages 路径下 
+2.
+运行PacketTracer.exe ，点击 Options ->Preferences 
+	在Select Language 
+	选中 Simplified Chinese.ptl 
+	点击 Change Language
+3.重启
+
+
+
+
+ 
