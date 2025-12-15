@@ -16,7 +16,7 @@ This summary integrates the previous chapter - by - chapter review references, a
     软件产品类型：通用产品（规范由开发者拥有）和定制产品（规范由客户拥有）。
 3.  **Fundamental SE Activities**: Specification → Design & Development → Validation → Software Evolution/Maintenance.
     基本软件工程活动：规范 → 设计与开发 → 验证 → 软件进化/维护。
-4.  **Software Failure Causes**: The increasing complexity of the system and the failure to adopt software engineering methods.
+4.  **Software Failure Causes**: The **increasing complexity of the system** and the **failure to adopt software engineering methods.**
     软件故障原因：系统复杂性的增加以及未能采用软件工程方法。
 5.  **General Issues Affecting Software**: Heterogeneity, business & social change, security & trust, and scale.
     影响软件的普遍问题：异构性、商业与社会变革、安全与信任，以及规模。

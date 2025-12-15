@@ -91,7 +91,7 @@ This review covers core knowledge of **Chapter 8 (Software Testing)** and aligns
 #### 2.4 Component Testing (构件测试) – Interfaces (接口)
 2.4 构件测试（Component Testing）– 接口（Interfaces）
 
-*   **Interface Types**: Parameter interfaces, shared memory interfaces, **procedural (过程) interfaces**, message passing interfaces (Quiz Q15).
+*   **Interface Types**: <u>Parameter interfaces, shared memory interfaces, **procedural (过程) interfaces**, message passing interfaces</u> (Quiz Q15).
     接口类型：参数接口、共享内存接口、过程接口、消息传递接口（测验题 Q15）。
 *   **Interface Error Types**: Interface misuse (接口误用), **interface misunderstanding (接口误解)**, timing errors (时序错误) (Quiz Q16).
     接口错误类型：接口误用、接口误解、时序错误（测验题 Q16）。
@@ -101,11 +101,11 @@ This review covers core knowledge of **Chapter 8 (Software Testing)** and aligns
 
 *   **Core Characteristics**:
     核心特征：
-    *   Interleave testing and code development (交织测试与代码开发). 
+    *   **Interleave** <u>testing and code development</u> (交织测试与代码开发). 
     *   Incremental code development + corresponding tests (增量开发代码+测试). 
-    *   **Do NOT start next increment until current code passes all tests** (Quiz Q18: Option C is FALSE). 
+    *   **Do NOT start next increment <u>until current code passes all tests</u>** (Quiz Q18: Option C is FALSE). 
     *   Applicable to both agile and plan-driven processes. 
-*   **Key Benefit**: Regression testing (回归测试) – run test suite to check for new bugs after code changes (Quiz Q19).
+*   **Key Benefit**: <u>Regression testing</u> (回归测试) – run test suite to check for new bugs after code changes (Quiz Q19).
     主要优势：回归测试（回归测试）——在代码变更后运行测试套件以检查新出现的错误（测验题 Q19）。
 
 ## Corresponding Quiz Exam Points

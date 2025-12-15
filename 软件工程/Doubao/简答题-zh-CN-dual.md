@@ -55,10 +55,10 @@ The manifesto emphasizes that agile development focuses on flexible, people-cent
     验证：验证的核心问题是“我们是否在正确地构建产品？”。它是检查软件是否满足其声明的功能和非功能要求的过程（例如，验证支付功能是否符合指定的响应时间）。
     
 *   **Validation**: The core question of validation is *“Are we building the right product?”*. Its aim is to ensure the software meets **customer’s expectations** (e.g., confirming if the payment function is easy enough for target users to operate).
-    验证：验证的核心问题是“我们是否在构建正确的产品？”。其目的是确保软件满足客户期望（例如，确认支付功能是否足够简单，以便目标用户能够操作）。
+    确认：验证的核心问题是“我们是否在构建正确的产品？”。其目的是确保软件满足客户期望（例如，确认支付功能是否足够简单，以便目标用户能够操作）。
     
 *   **Key difference**: Verification focuses on *compliance with predefined specifications*; validation focuses on *alignment with actual user needs* (requirements may not fully reflect user expectations).
-    关键区别：验证关注的是是否符合预定义的规范；而验证关注的是是否与实际用户需求一致（需求可能无法完全反映用户期望）。
+    关键区别：验证关注的是是否符合预定义的规范；而确认关注的是是否与实际用户需求一致（需求可能无法完全反映用户期望）。
     
 
 ### 4\. Explain the four essential elements of design patterns defined by “The Gang of Four”.

@@ -176,7 +176,7 @@ This review focuses on core knowledge of **Chapter 4 (Requirements Engineering)*
 
 1.  Stakeholders are any person who is \_\_\_\_\_\_\_\_\_\_\_\_\_\_ (affected by the system/受系统影响) in some way.
     利益相关者是指任何以某种方式受到系统\_\_\_\_\_\_\_\_\_\_\_\_\_\_影响（受系统影响）的人。
-2.  The three stages of requirements change management include problem analysis, change analysis, and \_\_\_\_\_\_\_\_\_\_\_\_\_\_ (change implementation/变更实现).
+2.  The three stages of requirements change management include **Problem analysis & change specification → Change analysis & costing → Change implementation.**
     需求变更管理的三个阶段包括问题分析、变更分析和\_\_\_\_\_\_\_\_\_\_\_\_\_\_（变更实现）。
 3.  In UML, \_\_\_\_\_\_\_\_\_\_\_\_\_\_ (state diagram/状态图) is used for event-driven behavioral modeling.
     在 UML 中，\_\_\_\_\_\_\_\_\_\_\_\_\_\_（状态图/状态图）用于事件驱动的行为建模。
@@ -310,7 +310,7 @@ Would you like me to create a **UML diagram cheat sheet** (English + Chinese ann
 
 | 维度             | 1. 类图 (Class Diagram)                                      | 2. 用例图 (Use Case Diagram)                     | 3. 顺序图 (Sequence Diagram)                                 | 4. 活动图 (Activity Diagram)                            | 5. 状态图 (State Diagram)                                 |
 | ---------------- | ------------------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------- | --------------------------------------------------------- |
-| **所属类别**     | 结构型（静态）                                               | 行为型（交互）                                   | 行为型（交互）                                               | 行为型（流程）                                          | 行为型（事件驱动）                                        |
+| **所属类别**     | 结构型（静态）                                               | 行为型（交互）                                   | 行为型（交互）                                               | 行为型（流程）数据驱动                                  | 行为型（事件驱动）                                        |
 | **核心用途**     | 展示类、属性、操作及关系                                     | 展示系统与外部参与者的交互                       | 展示按时间顺序的实体交互                                     | 展示数据驱动的流程/步骤                                 | 展示对象因事件的状态变化                                  |
 | **关键元素**     | 3段矩形（类名→属性→操作）、关联线、泛化（空心箭头）、聚集（菱形） | 参与者（ stick figure ）、用例（椭圆）、关联线   | 生命线（虚线）、消息（箭头）、alt分支（条件）                | 活动（圆角矩形）、并行网关（实心 bar ）、决策点（菱形） | 状态（圆角矩形）、转移（带事件箭头）、初始/终态（实心圆） |
 | **课程案例关联** | Mentcare系统中`Patient`与`Consultation`的1:*关联             | Mentcare系统中“医疗接待员”执行“挂号”“传数据”用例 | Mentcare系统“查看患者信息”：接待员→数据库→授权系统的交互顺序 | 精神科“非自愿留置”流程：确认决策后并行通知患者+记录     | 微波炉“待机→全功率→加热完成”的状态切换                    |
