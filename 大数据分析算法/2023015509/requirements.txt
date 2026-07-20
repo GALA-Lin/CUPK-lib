@@ -1,0 +1,21 @@
+# 2025pagerank.py 实验依赖
+# 安装：pip install -U pip setuptools wheel && pip install -r requirements.txt
+# GPU：先到 https://pytorch.org 按 CUDA 安装 torch，再装本文件其余包。
+#
+# node2vec 依赖 gensim。若 pip 只能“源码编译”旧版 gensim，会在 Python 3.12/3.13 上
+# 出现 ma_version_tag / C 扩展编译失败。请优先用官方 wheel：
+#   - 推荐虚拟环境 Python 3.11 或 3.12（Apple Silicon / Intel 均有 gensim wheel）
+#   - 并固定较新 gensim（见下行），避免被拉到老版本再走编译
+
+numpy>=1.24,<3
+scipy>=1.7.0
+gensim>=4.3.3
+networkx>=3.1
+matplotlib>=3.7
+scikit-learn>=1.3
+torch>=2.1,<3
+torch-geometric>=2.4
+node2vec>=0.4.6
+
+pandas~=2.2.0
+scikit-surprise~=1.1.4

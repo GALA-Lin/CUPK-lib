@@ -1,0 +1,496 @@
+2026-04-27 10:30:55,199 - INFO - Loading MovieLens-100K dataset...
+2026-04-27 10:31:52,895 - INFO - Users=943, Items=1651, Ratings=80000
+2026-04-27 10:31:52,895 - INFO - Sparsity=0.9486, Avg rating=3.53
+2026-04-27 10:31:52,895 - INFO - Train=80000, Test=20000
+2026-04-27 10:31:52,895 - INFO - Start training ItemCF (Pearson), k=20
+2026-04-27 10:31:52,929 - INFO - ItemCF progress: 0/1651
+2026-04-27 10:31:55,006 - INFO - ItemCF progress: 100/1651
+2026-04-27 10:31:56,735 - INFO - ItemCF progress: 200/1651
+2026-04-27 10:31:58,317 - INFO - ItemCF progress: 300/1651
+2026-04-27 10:31:59,609 - INFO - ItemCF progress: 400/1651
+2026-04-27 10:32:00,525 - INFO - ItemCF progress: 500/1651
+2026-04-27 10:32:01,232 - INFO - ItemCF progress: 600/1651
+2026-04-27 10:32:01,797 - INFO - ItemCF progress: 700/1651
+2026-04-27 10:32:02,143 - INFO - ItemCF progress: 800/1651
+2026-04-27 10:32:02,357 - INFO - ItemCF progress: 900/1651
+2026-04-27 10:32:02,512 - INFO - ItemCF progress: 1000/1651
+2026-04-27 10:32:02,667 - INFO - ItemCF progress: 1100/1651
+2026-04-27 10:32:02,751 - INFO - ItemCF progress: 1200/1651
+2026-04-27 10:32:02,785 - INFO - ItemCF progress: 1300/1651
+2026-04-27 10:32:02,800 - INFO - ItemCF progress: 1400/1651
+2026-04-27 10:32:02,808 - INFO - ItemCF progress: 1500/1651
+2026-04-27 10:32:02,812 - INFO - ItemCF progress: 1600/1651
+2026-04-27 10:32:02,812 - INFO - ItemCF (Pearson) training completed.
+2026-04-27 10:32:02,812 - INFO - Start training SVD...
+2026-04-27 10:32:03,388 - INFO - SVD training completed.
+2026-04-27 10:32:03,389 - INFO - Evaluating ItemCF...
+2026-04-27 10:32:03,396 - INFO - ItemCF RMSE=1.2448, MAE=1.0061
+2026-04-27 10:32:03,396 - INFO - Correlation=nan, p=nan
+2026-04-27 10:32:03,396 - INFO - Evaluating SVD...
+2026-04-27 10:32:03,455 - INFO - SVD RMSE=0.9352, MAE=0.7375
+2026-04-27 10:32:03,455 - INFO - Correlation=0.5617, p=0.000000
+2026-04-27 10:32:03,455 - INFO - Standard cold-start evaluation...
+2026-04-27 10:32:03,474 - INFO - Cold-start: known 1 ratings
+2026-04-27 10:37:47,628 - INFO - Known=1 | ItemCF=0.000 | SVD=0.027
+2026-04-27 10:37:47,629 - INFO - Cold-start: known 3 ratings
+2026-04-27 10:39:31,167 - INFO - Loading MovieLens-100K dataset...
+2026-04-27 10:39:31,343 - INFO - Users=943, Items=1651, Ratings=80000
+2026-04-27 10:39:31,343 - INFO - Sparsity=0.9486, Avg rating=3.53
+2026-04-27 10:39:31,343 - INFO - Train=80000, Test=20000
+2026-04-27 10:39:31,343 - INFO - Start training ItemCF (Pearson), k=20
+2026-04-27 10:39:31,385 - INFO - ItemCF progress: 0/1651
+2026-04-27 10:39:33,844 - INFO - ItemCF progress: 100/1651
+2026-04-27 10:39:36,837 - INFO - ItemCF progress: 200/1651
+2026-04-27 10:39:38,963 - INFO - ItemCF progress: 300/1651
+2026-04-27 10:39:40,592 - INFO - ItemCF progress: 400/1651
+2026-04-27 10:39:42,047 - INFO - ItemCF progress: 500/1651
+2026-04-27 10:39:42,998 - INFO - ItemCF progress: 600/1651
+2026-04-27 10:39:43,740 - INFO - ItemCF progress: 700/1651
+2026-04-27 10:39:44,248 - INFO - ItemCF progress: 800/1651
+2026-04-27 10:39:44,532 - INFO - ItemCF progress: 900/1651
+2026-04-27 10:39:44,753 - INFO - ItemCF progress: 1000/1651
+2026-04-27 10:39:44,980 - INFO - ItemCF progress: 1100/1651
+2026-04-27 10:39:45,091 - INFO - ItemCF progress: 1200/1651
+2026-04-27 10:39:45,133 - INFO - ItemCF progress: 1300/1651
+2026-04-27 10:39:45,149 - INFO - ItemCF progress: 1400/1651
+2026-04-27 10:39:45,159 - INFO - ItemCF progress: 1500/1651
+2026-04-27 10:39:45,162 - INFO - ItemCF progress: 1600/1651
+2026-04-27 10:39:45,162 - INFO - ItemCF (Pearson) training completed.
+2026-04-27 10:39:45,162 - INFO - Start training SVD...
+2026-04-27 10:39:45,936 - INFO - SVD training completed.
+2026-04-27 10:39:45,936 - INFO - Evaluating ItemCF...
+2026-04-27 10:39:45,947 - INFO - ItemCF RMSE=1.2448, MAE=1.0061
+2026-04-27 10:39:45,947 - INFO - Correlation=nan, p=nan
+2026-04-27 10:39:45,947 - INFO - Evaluating SVD...
+2026-04-27 10:39:46,032 - INFO - SVD RMSE=0.9352, MAE=0.7375
+2026-04-27 10:39:46,032 - INFO - Correlation=0.5617, p=0.000000
+2026-04-27 10:39:46,032 - INFO - Standard cold-start evaluation...
+2026-04-27 10:39:46,066 - INFO - Cold-start: known 1 ratings
+2026-04-27 10:45:11,325 - INFO - Known=1 | ItemCF=0.000 | SVD=0.027
+2026-04-27 10:45:11,325 - INFO - Cold-start: known 3 ratings
+2026-04-27 10:50:36,993 - INFO - Known=3 | ItemCF=0.000 | SVD=0.027
+2026-04-27 10:50:36,994 - INFO - Cold-start: known 5 ratings
+2026-04-27 10:53:10,502 - INFO - Loading MovieLens-100K dataset...
+2026-04-27 10:53:10,681 - INFO - Users=943, Items=1651, Ratings=80000
+2026-04-27 10:53:10,682 - INFO - Sparsity=0.9486, Avg rating=3.53
+2026-04-27 10:53:10,682 - INFO - Train=80000, Test=20000
+2026-04-27 10:53:10,682 - INFO - Start training ItemCF (Pearson), k=20
+2026-04-27 10:53:10,734 - INFO - ItemCF progress: 0/1651
+2026-04-27 10:53:13,018 - INFO - ItemCF progress: 100/1651
+2026-04-27 10:53:15,060 - INFO - ItemCF progress: 200/1651
+2026-04-27 10:53:16,656 - INFO - ItemCF progress: 300/1651
+2026-04-27 10:53:17,973 - INFO - ItemCF progress: 400/1651
+2026-04-27 10:53:18,999 - INFO - ItemCF progress: 500/1651
+2026-04-27 10:53:19,799 - INFO - ItemCF progress: 600/1651
+2026-04-27 10:53:20,399 - INFO - ItemCF progress: 700/1651
+2026-04-27 10:53:20,790 - INFO - ItemCF progress: 800/1651
+2026-04-27 10:53:21,020 - INFO - ItemCF progress: 900/1651
+2026-04-27 10:53:21,201 - INFO - ItemCF progress: 1000/1651
+2026-04-27 10:53:21,362 - INFO - ItemCF progress: 1100/1651
+2026-04-27 10:53:21,457 - INFO - ItemCF progress: 1200/1651
+2026-04-27 10:53:21,492 - INFO - ItemCF progress: 1300/1651
+2026-04-27 10:53:21,505 - INFO - ItemCF progress: 1400/1651
+2026-04-27 10:53:21,513 - INFO - ItemCF progress: 1500/1651
+2026-04-27 10:53:21,515 - INFO - ItemCF progress: 1600/1651
+2026-04-27 10:53:21,516 - INFO - ItemCF (Pearson) training completed.
+2026-04-27 10:53:21,516 - INFO - Start training SVD...
+2026-04-27 10:53:22,204 - INFO - SVD training completed.
+2026-04-27 10:53:22,204 - INFO - Evaluating ItemCF...
+2026-04-27 10:53:22,214 - INFO - ItemCF RMSE=1.2448, MAE=1.0061
+2026-04-27 10:53:22,214 - INFO - Correlation=nan, p=nan
+2026-04-27 10:53:22,214 - INFO - Evaluating SVD...
+2026-04-27 10:53:22,269 - INFO - SVD RMSE=0.9352, MAE=0.7375
+2026-04-27 10:53:22,269 - INFO - Correlation=0.5617, p=0.000000
+2026-04-27 10:53:22,269 - INFO - Standard cold-start evaluation...
+2026-04-27 10:53:22,296 - INFO - Cold-start: known 1 ratings
+2026-04-27 10:55:17,494 - INFO - Loading MovieLens-100K dataset...
+2026-04-27 10:55:17,712 - INFO - Users=943, Items=1651, Ratings=80000
+2026-04-27 10:55:17,712 - INFO - Sparsity=0.9486, Avg rating=3.53
+2026-04-27 10:55:17,712 - INFO - Train=80000, Test=20000
+2026-04-27 10:55:17,712 - INFO - Start training ItemCF (Pearson), k=20
+2026-04-27 10:55:17,762 - INFO - ItemCF progress: 0/1651
+2026-04-27 10:55:20,714 - INFO - ItemCF progress: 100/1651
+2026-04-27 10:55:23,274 - INFO - ItemCF progress: 200/1651
+2026-04-27 10:55:25,233 - INFO - ItemCF progress: 300/1651
+2026-04-27 10:55:26,896 - INFO - ItemCF progress: 400/1651
+2026-04-27 10:55:28,297 - INFO - ItemCF progress: 500/1651
+2026-04-27 10:55:29,334 - INFO - ItemCF progress: 600/1651
+2026-04-27 10:55:30,132 - INFO - ItemCF progress: 700/1651
+2026-04-27 10:55:30,678 - INFO - ItemCF progress: 800/1651
+2026-04-27 10:55:30,991 - INFO - ItemCF progress: 900/1651
+2026-04-27 10:55:31,240 - INFO - ItemCF progress: 1000/1651
+2026-04-27 10:55:31,465 - INFO - ItemCF progress: 1100/1651
+2026-04-27 10:55:31,584 - INFO - ItemCF progress: 1200/1651
+2026-04-27 10:55:31,630 - INFO - ItemCF progress: 1300/1651
+2026-04-27 10:55:31,649 - INFO - ItemCF progress: 1400/1651
+2026-04-27 10:55:31,657 - INFO - ItemCF progress: 1500/1651
+2026-04-27 10:55:31,661 - INFO - ItemCF progress: 1600/1651
+2026-04-27 10:55:31,661 - INFO - ItemCF (Pearson) training completed.
+2026-04-27 10:55:31,661 - INFO - Start training SVD...
+2026-04-27 10:55:32,518 - INFO - SVD training completed.
+2026-04-27 10:55:32,519 - INFO - Evaluating ItemCF...
+2026-04-27 10:55:32,529 - INFO - ItemCF RMSE=1.2448, MAE=1.0061
+2026-04-27 10:55:32,529 - INFO - Correlation=nan, p=nan
+2026-04-27 10:55:32,529 - INFO - Evaluating SVD...
+2026-04-27 10:55:32,603 - INFO - SVD RMSE=0.9352, MAE=0.7375
+2026-04-27 10:55:32,603 - INFO - Correlation=0.5617, p=0.000000
+2026-04-27 10:55:32,603 - INFO - Standard cold-start evaluation...
+2026-04-27 10:55:32,635 - INFO - Cold-start: known 1 ratings
+2026-04-27 10:56:08,307 - INFO - Loading MovieLens-100K dataset...
+2026-04-27 10:56:08,475 - INFO - Users=943, Items=1651, Ratings=80000
+2026-04-27 10:56:08,476 - INFO - Sparsity=0.9486, Avg rating=3.53
+2026-04-27 10:56:08,476 - INFO - Train=80000, Test=20000
+2026-04-27 10:56:08,476 - INFO - Start training ItemCF (Pearson), k=20
+2026-04-27 10:56:08,511 - INFO - ItemCF progress: 0/1651
+2026-04-27 10:56:10,695 - INFO - ItemCF progress: 100/1651
+2026-04-27 10:56:12,593 - INFO - ItemCF progress: 200/1651
+2026-04-27 10:56:14,039 - INFO - ItemCF progress: 300/1651
+2026-04-27 10:56:15,223 - INFO - ItemCF progress: 400/1651
+2026-04-27 10:56:16,199 - INFO - ItemCF progress: 500/1651
+2026-04-27 10:56:16,915 - INFO - ItemCF progress: 600/1651
+2026-04-27 10:56:17,483 - INFO - ItemCF progress: 700/1651
+2026-04-27 10:56:17,847 - INFO - ItemCF progress: 800/1651
+2026-04-27 10:56:18,061 - INFO - ItemCF progress: 900/1651
+2026-04-27 10:56:18,236 - INFO - ItemCF progress: 1000/1651
+2026-04-27 10:56:18,395 - INFO - ItemCF progress: 1100/1651
+2026-04-27 10:56:18,481 - INFO - ItemCF progress: 1200/1651
+2026-04-27 10:56:18,514 - INFO - ItemCF progress: 1300/1651
+2026-04-27 10:56:18,527 - INFO - ItemCF progress: 1400/1651
+2026-04-27 10:56:18,534 - INFO - ItemCF progress: 1500/1651
+2026-04-27 10:56:18,536 - INFO - ItemCF progress: 1600/1651
+2026-04-27 10:56:18,537 - INFO - ItemCF (Pearson) training completed.
+2026-04-27 10:56:18,537 - INFO - Start training SVD...
+2026-04-27 10:56:19,196 - INFO - SVD training completed.
+2026-04-27 10:56:19,196 - INFO - Evaluating ItemCF...
+2026-04-27 10:56:19,203 - INFO - ItemCF RMSE=1.2448, MAE=1.0061
+2026-04-27 10:56:19,203 - INFO - Correlation=nan, p=nan
+2026-04-27 10:56:19,203 - INFO - Evaluating SVD...
+2026-04-27 10:56:19,255 - INFO - SVD RMSE=0.9352, MAE=0.7375
+2026-04-27 10:56:19,255 - INFO - Correlation=0.5617, p=0.000000
+2026-04-27 10:56:19,255 - INFO - Standard cold-start evaluation...
+2026-04-27 10:56:19,280 - INFO - Cold-start: evaluating on 200 sampled users
+2026-04-27 10:56:19,281 - WARNING - SVD matrix pre-fetch failed, falling back to per-item predict (slower)
+2026-04-27 10:56:19,281 - INFO - Cold-start: known 1 ratings
+2026-04-27 10:57:20,645 - INFO - Known=1 | ItemCF=0.000 | SVD=0.029
+2026-04-27 10:57:20,645 - INFO - Cold-start: known 3 ratings
+2026-04-27 10:58:23,647 - INFO - Known=3 | ItemCF=0.000 | SVD=0.029
+2026-04-27 10:58:23,647 - INFO - Cold-start: known 5 ratings
+2026-04-27 10:59:32,828 - INFO - Known=5 | ItemCF=0.000 | SVD=0.028
+2026-04-27 10:59:33,484 - INFO - ================================================== Experiment Conclusion ==================================================
+2026-04-27 10:59:33,484 - INFO - SVD (RMSE=0.9352) outperforms ItemCF (RMSE=1.2448)
+2026-04-27 10:59:33,484 - INFO - SVD is more stable in cold-start scenarios.
+2026-04-27 10:59:33,484 - INFO - Hybrid recommendation is recommended: SVD for accuracy, ItemCF for interpretability.
+2026-04-27 10:59:33,484 - INFO - ========================================================================================================================
+2026-05-01 14:31:28,392 - INFO - Loading MovieLens-100K dataset...
+2026-05-01 14:31:28,715 - INFO - Users=943, Items=1651, Ratings=80000
+2026-05-01 14:31:28,715 - INFO - Sparsity=0.9486, Avg rating=3.53
+2026-05-01 14:31:28,715 - INFO - Train=80000, Test=20000
+2026-05-01 14:31:28,715 - INFO - Start training ItemCF (Pearson), k=20
+2026-05-01 14:31:28,776 - INFO - ItemCF progress: 0/1651
+2026-05-01 14:31:32,303 - INFO - ItemCF progress: 100/1651
+2026-05-01 14:31:34,628 - INFO - ItemCF progress: 200/1651
+2026-05-01 14:31:36,416 - INFO - ItemCF progress: 300/1651
+2026-05-01 14:31:37,795 - INFO - ItemCF progress: 400/1651
+2026-05-01 14:31:39,120 - INFO - ItemCF progress: 500/1651
+2026-05-01 14:31:40,320 - INFO - ItemCF progress: 600/1651
+2026-05-01 14:31:41,543 - INFO - ItemCF progress: 700/1651
+2026-05-01 14:31:42,172 - INFO - ItemCF progress: 800/1651
+2026-05-01 14:31:42,550 - INFO - ItemCF progress: 900/1651
+2026-05-01 14:31:42,829 - INFO - ItemCF progress: 1000/1651
+2026-05-01 14:31:43,022 - INFO - ItemCF progress: 1100/1651
+2026-05-01 14:31:43,139 - INFO - ItemCF progress: 1200/1651
+2026-05-01 14:31:43,181 - INFO - ItemCF progress: 1300/1651
+2026-05-01 14:31:43,196 - INFO - ItemCF progress: 1400/1651
+2026-05-01 14:31:43,204 - INFO - ItemCF progress: 1500/1651
+2026-05-01 14:31:43,206 - INFO - ItemCF progress: 1600/1651
+2026-05-01 14:31:43,206 - INFO - ItemCF (Pearson) training completed.
+2026-05-01 14:31:43,206 - INFO - Start training SVD...
+2026-05-01 14:31:43,845 - INFO - SVD training completed.
+2026-05-01 14:31:43,845 - INFO - Evaluating ItemCF...
+2026-05-01 14:31:43,856 - INFO - ItemCF RMSE=1.2448, MAE=1.0061
+2026-05-01 14:31:43,856 - INFO - Correlation=nan, p=nan
+2026-05-01 14:31:43,856 - INFO - Evaluating SVD...
+2026-05-01 14:31:43,915 - INFO - SVD RMSE=0.9352, MAE=0.7375
+2026-05-01 14:31:43,915 - INFO - Correlation=0.5617, p=0.000000
+2026-05-01 14:31:43,915 - INFO - Standard cold-start evaluation...
+2026-05-01 14:31:43,937 - INFO - Cold-start: known 1 ratings
+2026-05-01 14:37:15,774 - INFO - Known=1 | ItemCF=0.000 | SVD=0.027
+2026-05-01 14:37:15,775 - INFO - Cold-start: known 3 ratings
+2026-05-01 14:42:24,101 - INFO - Known=3 | ItemCF=0.000 | SVD=0.027
+2026-05-01 14:42:24,101 - INFO - Cold-start: known 5 ratings
+2026-05-01 14:48:05,764 - INFO - Known=5 | ItemCF=0.000 | SVD=0.028
+2026-05-01 14:48:06,258 - INFO - ================================================== Experiment Conclusion ==================================================
+2026-05-01 14:48:06,258 - INFO - SVD (RMSE=0.9352) outperforms ItemCF (RMSE=1.2448)
+2026-05-01 14:48:06,258 - INFO - SVD is more stable in cold-start scenarios.
+2026-05-01 14:48:06,258 - INFO - Hybrid recommendation is recommended: SVD for accuracy, ItemCF for interpretability.
+2026-05-01 14:48:06,258 - INFO - ========================================================================================================================
+2026-05-01 14:53:38,285 - INFO - Loading MovieLens-100K dataset...
+2026-05-01 14:53:38,490 - INFO - Users=943, Items=1651, Ratings=80000
+2026-05-01 14:53:38,490 - INFO - Sparsity=0.9486, Avg rating=3.53
+2026-05-01 14:53:38,490 - INFO - Train=80000, Test=20000
+2026-05-01 14:53:38,490 - INFO - Start training ItemCF (Pearson), k=20
+2026-05-01 14:53:38,530 - INFO - ItemCF progress: 0/1651
+2026-05-01 14:53:41,494 - INFO - ItemCF progress: 100/1651
+2026-05-01 14:53:44,200 - INFO - ItemCF progress: 200/1651
+2026-05-01 14:53:46,237 - INFO - ItemCF progress: 300/1651
+2026-05-01 14:53:47,885 - INFO - ItemCF progress: 400/1651
+2026-05-01 14:53:49,330 - INFO - ItemCF progress: 500/1651
+2026-05-01 14:53:50,407 - INFO - ItemCF progress: 600/1651
+2026-05-01 14:53:51,343 - INFO - ItemCF progress: 700/1651
+2026-05-01 14:53:51,842 - INFO - ItemCF progress: 800/1651
+2026-05-01 14:53:52,144 - INFO - ItemCF progress: 900/1651
+2026-05-01 14:53:52,377 - INFO - ItemCF progress: 1000/1651
+2026-05-01 14:53:52,579 - INFO - ItemCF progress: 1100/1651
+2026-05-01 14:53:52,695 - INFO - ItemCF progress: 1200/1651
+2026-05-01 14:53:52,740 - INFO - ItemCF progress: 1300/1651
+2026-05-01 14:53:52,757 - INFO - ItemCF progress: 1400/1651
+2026-05-01 14:53:52,766 - INFO - ItemCF progress: 1500/1651
+2026-05-01 14:53:52,769 - INFO - ItemCF progress: 1600/1651
+2026-05-01 14:53:52,770 - INFO - ItemCF (Pearson) training completed.
+2026-05-01 14:53:52,770 - INFO - Start training SVD...
+2026-05-01 14:53:53,584 - INFO - SVD training completed.
+2026-05-01 14:53:53,584 - INFO - Evaluating ItemCF...
+2026-05-01 14:53:53,594 - INFO - ItemCF RMSE=1.2448, MAE=1.0061
+2026-05-01 14:53:53,594 - INFO - Correlation=nan, p=nan
+2026-05-01 14:53:53,594 - INFO - Evaluating SVD...
+2026-05-01 14:53:53,679 - INFO - SVD RMSE=0.9352, MAE=0.7375
+2026-05-01 14:53:53,679 - INFO - Correlation=0.5617, p=0.000000
+2026-05-01 14:53:53,679 - INFO - Standard cold-start evaluation...
+2026-05-01 14:53:53,706 - INFO - Cold-start: known 1 ratings
+2026-05-01 14:59:36,015 - INFO - Known=1 | ItemCF=0.000 | SVD=0.027
+2026-05-01 14:59:36,015 - INFO - Cold-start: known 3 ratings
+2026-05-01 15:04:50,131 - INFO - Known=3 | ItemCF=0.000 | SVD=0.027
+2026-05-01 15:04:50,131 - INFO - Cold-start: known 5 ratings
+2026-05-01 15:05:39,623 - INFO - Loading MovieLens-100K dataset...
+2026-05-01 15:05:39,821 - INFO - Users=943, Items=1651, Ratings=80000
+2026-05-01 15:05:39,821 - INFO - Sparsity=0.9486, Avg rating=3.53
+2026-05-01 15:05:39,821 - INFO - Train=80000, Test=20000
+2026-05-01 15:05:39,821 - INFO - Start training ItemCF (Pearson), k=20
+2026-05-01 15:05:39,868 - INFO - ItemCF progress: 0/1651
+2026-05-01 15:05:42,571 - INFO - ItemCF progress: 100/1651
+2026-05-01 15:05:44,622 - INFO - ItemCF progress: 200/1651
+2026-05-01 15:05:46,485 - INFO - ItemCF progress: 300/1651
+2026-05-01 15:05:47,942 - INFO - ItemCF progress: 400/1651
+2026-05-01 15:05:49,359 - INFO - ItemCF progress: 500/1651
+2026-05-01 15:05:50,358 - INFO - ItemCF progress: 600/1651
+2026-05-01 15:05:51,181 - INFO - ItemCF progress: 700/1651
+2026-05-01 15:05:51,671 - INFO - ItemCF progress: 800/1651
+2026-05-01 15:05:51,989 - INFO - ItemCF progress: 900/1651
+2026-05-01 15:05:52,231 - INFO - ItemCF progress: 1000/1651
+2026-05-01 15:05:52,468 - INFO - ItemCF progress: 1100/1651
+2026-05-01 15:05:52,589 - INFO - ItemCF progress: 1200/1651
+2026-05-01 15:05:52,641 - INFO - ItemCF progress: 1300/1651
+2026-05-01 15:05:52,658 - INFO - ItemCF progress: 1400/1651
+2026-05-01 15:05:52,663 - INFO - ItemCF progress: 1500/1651
+2026-05-01 15:05:52,671 - INFO - ItemCF progress: 1600/1651
+2026-05-01 15:05:52,671 - INFO - ItemCF (Pearson) training completed.
+2026-05-01 15:05:52,671 - INFO - Start training SVD...
+2026-05-01 15:05:53,437 - INFO - SVD training completed.
+2026-05-01 15:05:53,437 - INFO - Evaluating ItemCF...
+2026-05-01 15:05:53,446 - INFO - ItemCF RMSE=1.2448, MAE=1.0061
+2026-05-01 15:05:53,446 - INFO - Correlation=nan, p=nan
+2026-05-01 15:05:53,446 - INFO - Evaluating SVD...
+2026-05-01 15:05:53,513 - INFO - SVD RMSE=0.9352, MAE=0.7375
+2026-05-01 15:05:53,513 - INFO - Correlation=0.5617, p=0.000000
+2026-05-01 15:05:53,513 - INFO - Standard cold-start evaluation...
+2026-05-01 15:05:53,540 - INFO - Cold-start: known 1 ratings
+2026-05-01 15:10:40,120 - INFO - Known=1 | ItemCF=0.000 | SVD=0.027
+2026-05-01 15:10:40,120 - INFO - Cold-start: known 3 ratings
+2026-05-01 15:11:59,433 - INFO - Loading MovieLens-100K dataset...
+2026-05-01 15:11:59,624 - INFO - Users=943, Items=1651, Ratings=80000
+2026-05-01 15:11:59,624 - INFO - Sparsity=0.9486, Avg rating=3.53
+2026-05-01 15:11:59,624 - INFO - Train=80000, Test=20000
+2026-05-01 15:11:59,624 - INFO - Start training ItemCF (Pearson), k=20
+2026-05-01 15:11:59,665 - INFO - ItemCF progress: 0/1651
+2026-05-01 15:12:03,888 - INFO - ItemCF progress: 200/1651
+2026-05-01 15:12:06,641 - INFO - ItemCF progress: 400/1651
+2026-05-01 15:12:08,599 - INFO - ItemCF progress: 600/1651
+2026-05-01 15:12:10,049 - INFO - ItemCF progress: 800/1651
+2026-05-01 15:12:10,646 - INFO - ItemCF progress: 1000/1651
+2026-05-01 15:12:11,006 - INFO - ItemCF progress: 1200/1651
+2026-05-01 15:12:11,080 - INFO - ItemCF progress: 1400/1651
+2026-05-01 15:12:11,096 - INFO - ItemCF progress: 1600/1651
+2026-05-01 15:12:11,097 - INFO - ItemCF training completed.
+2026-05-01 15:12:11,097 - INFO - Training SVD (n_factors=100)...
+2026-05-01 15:12:11,930 - INFO - SVD training completed.
+2026-05-01 15:12:11,930 - INFO - ============================== Base Evaluation ==============================
+2026-05-01 15:12:11,941 - INFO - ItemCF: RMSE=1.2448, MAE=1.0061, Corr=nan(p=nan)
+2026-05-01 15:12:12,025 - INFO - SVD: RMSE=0.9352, MAE=0.7375, Corr=0.5617(p=0.00e+00)
+2026-05-01 15:12:12,025 - INFO - ============================== Hybrid Recommender ==============================
+2026-05-01 15:12:12,229 - INFO - Hybrid: RMSE=0.9352, MAE=0.7375, Corr=0.5617(p=0.00e+00)
+2026-05-01 15:12:12,229 - INFO - Cold-start evaluation...
+2026-05-01 15:15:21,927 - INFO - Known=3 | ItemCF=0.000 | SVD=0.027
+2026-05-01 15:15:21,927 - INFO - Cold-start: known 5 ratings
+2026-05-01 15:17:22,626 - INFO - Known=1 ratings | ItemCF Hit=0.001 | SVD Hit=0.027
+2026-05-01 15:21:07,504 - INFO - Known=5 | ItemCF=0.000 | SVD=0.028
+2026-05-01 15:21:08,005 - INFO - ================================================== Experiment Conclusion ==================================================
+2026-05-01 15:21:08,006 - INFO - SVD (RMSE=0.9352) outperforms ItemCF (RMSE=1.2448)
+2026-05-01 15:21:08,006 - INFO - SVD is more stable in cold-start scenarios.
+2026-05-01 15:21:08,006 - INFO - Hybrid recommendation is recommended: SVD for accuracy, ItemCF for interpretability.
+2026-05-01 15:21:08,006 - INFO - ========================================================================================================================
+2026-05-01 15:22:58,475 - INFO - Known=3 ratings | ItemCF Hit=0.002 | SVD Hit=0.027
+2026-05-01 15:28:08,118 - INFO - Known=5 ratings | ItemCF Hit=0.002 | SVD Hit=0.028
+2026-05-01 15:28:08,650 - INFO - Standard figures saved.
+2026-05-01 15:28:08,650 - INFO - ============================== Hyperparameter Sensitivity Experiment ==============================
+2026-05-01 15:28:08,650 - INFO - ItemCF K sensitivity...
+2026-05-01 15:28:08,650 - INFO - Start training ItemCF (Pearson), k=5
+2026-05-01 15:28:08,688 - INFO - ItemCF progress: 0/1651
+2026-05-01 15:28:12,722 - INFO - ItemCF progress: 200/1651
+2026-05-01 15:28:15,401 - INFO - ItemCF progress: 400/1651
+2026-05-01 15:28:17,121 - INFO - ItemCF progress: 600/1651
+2026-05-01 15:28:18,056 - INFO - ItemCF progress: 800/1651
+2026-05-01 15:28:18,449 - INFO - ItemCF progress: 1000/1651
+2026-05-01 15:28:18,695 - INFO - ItemCF progress: 1200/1651
+2026-05-01 15:28:18,740 - INFO - ItemCF progress: 1400/1651
+2026-05-01 15:28:18,750 - INFO - ItemCF progress: 1600/1651
+2026-05-01 15:28:18,750 - INFO - ItemCF training completed.
+2026-05-01 15:32:36,300 - INFO - Loading MovieLens-100K dataset...
+2026-05-01 15:32:36,540 - INFO - Users=943, Items=1651, Ratings=80000
+2026-05-01 15:32:36,540 - INFO - Sparsity=0.9486, Avg rating=3.53
+2026-05-01 15:32:36,540 - INFO - Train=80000, Test=20000
+2026-05-01 15:32:36,540 - INFO - Start training ItemCF (Pearson), k=20
+2026-05-01 15:32:36,593 - INFO - ItemCF progress: 0/1651
+2026-05-01 15:32:42,324 - INFO - ItemCF progress: 200/1651
+2026-05-01 15:32:46,111 - INFO - ItemCF progress: 400/1651
+2026-05-01 15:32:48,607 - INFO - ItemCF progress: 600/1651
+2026-05-01 15:32:49,944 - INFO - ItemCF progress: 800/1651
+2026-05-01 15:32:50,490 - INFO - ItemCF progress: 1000/1651
+2026-05-01 15:32:50,834 - INFO - ItemCF progress: 1200/1651
+2026-05-01 15:32:50,901 - INFO - ItemCF progress: 1400/1651
+2026-05-01 15:32:50,916 - INFO - ItemCF progress: 1600/1651
+2026-05-01 15:32:50,917 - INFO - ItemCF training completed.
+2026-05-01 15:32:50,917 - INFO - Training SVD (n_factors=100)...
+2026-05-01 15:32:51,755 - INFO - SVD training completed.
+2026-05-01 15:32:51,755 - INFO - ============================== Base Evaluation ==============================
+2026-05-01 15:32:51,765 - INFO - ItemCF: RMSE=1.2448, MAE=1.0061, Corr=nan(p=nan)
+2026-05-01 15:32:51,838 - INFO - SVD: RMSE=0.9352, MAE=0.7375, Corr=0.5617(p=0.00e+00)
+2026-05-01 15:32:51,838 - INFO - ============================== Hybrid Recommender ==============================
+2026-05-01 15:32:52,013 - INFO - Hybrid: RMSE=0.9352, MAE=0.7375, Corr=0.5617(p=0.00e+00)
+2026-05-01 15:32:52,013 - INFO - Cold-start evaluation...
+2026-05-01 15:38:18,215 - INFO - Known=1 ratings | ItemCF Hit=0.001 | SVD Hit=0.027
+2026-05-01 15:43:41,864 - INFO - Known=3 ratings | ItemCF Hit=0.002 | SVD Hit=0.027
+2026-05-01 15:47:50,279 - INFO - Known=5 ratings | ItemCF Hit=0.002 | SVD Hit=0.028
+2026-05-01 15:47:50,713 - INFO - Standard figures saved.
+2026-05-01 15:47:50,713 - INFO - ============================== Hyperparameter Sensitivity Experiment ==============================
+2026-05-01 15:47:50,713 - INFO - ItemCF K sensitivity...
+2026-05-01 15:47:50,713 - INFO - Start training ItemCF (Pearson), k=5
+2026-05-01 15:47:50,750 - INFO - ItemCF progress: 0/1651
+2026-05-01 15:47:54,750 - INFO - ItemCF progress: 200/1651
+2026-05-01 15:47:57,394 - INFO - ItemCF progress: 400/1651
+2026-05-01 15:47:59,107 - INFO - ItemCF progress: 600/1651
+2026-05-01 15:48:00,038 - INFO - ItemCF progress: 800/1651
+2026-05-01 15:48:00,424 - INFO - ItemCF progress: 1000/1651
+2026-05-01 15:48:00,671 - INFO - ItemCF progress: 1200/1651
+2026-05-01 15:48:00,717 - INFO - ItemCF progress: 1400/1651
+2026-05-01 15:48:00,727 - INFO - ItemCF progress: 1600/1651
+2026-05-01 15:48:00,727 - INFO - ItemCF training completed.
+2026-05-01 15:48:00,737 - INFO - ItemCF(k=5): RMSE=1.2448, MAE=1.0061, Corr=nan(p=nan)
+2026-05-01 15:48:00,756 - INFO - Start training ItemCF (Pearson), k=10
+2026-05-01 15:48:00,840 - INFO - ItemCF progress: 0/1651
+2026-05-01 15:48:04,947 - INFO - ItemCF progress: 200/1651
+2026-05-01 15:48:07,673 - INFO - ItemCF progress: 400/1651
+2026-05-01 15:48:09,390 - INFO - ItemCF progress: 600/1651
+2026-05-01 15:48:10,308 - INFO - ItemCF progress: 800/1651
+2026-05-01 15:48:10,690 - INFO - ItemCF progress: 1000/1651
+2026-05-01 15:48:10,939 - INFO - ItemCF progress: 1200/1651
+2026-05-01 15:48:10,988 - INFO - ItemCF progress: 1400/1651
+2026-05-01 15:48:10,998 - INFO - ItemCF progress: 1600/1651
+2026-05-01 15:48:10,998 - INFO - ItemCF training completed.
+2026-05-01 15:48:11,005 - INFO - ItemCF(k=10): RMSE=1.2448, MAE=1.0061, Corr=nan(p=nan)
+2026-05-01 15:48:11,025 - INFO - Start training ItemCF (Pearson), k=20
+2026-05-01 15:48:11,061 - INFO - ItemCF progress: 0/1651
+2026-05-01 15:48:15,008 - INFO - ItemCF progress: 200/1651
+2026-05-01 15:48:17,663 - INFO - ItemCF progress: 400/1651
+2026-05-01 15:48:19,378 - INFO - ItemCF progress: 600/1651
+2026-05-01 15:48:20,338 - INFO - ItemCF progress: 800/1651
+2026-05-01 15:48:20,878 - INFO - ItemCF progress: 1000/1651
+2026-05-01 15:48:21,298 - INFO - ItemCF progress: 1200/1651
+2026-05-01 15:48:21,392 - INFO - ItemCF progress: 1400/1651
+2026-05-01 15:48:21,410 - INFO - ItemCF progress: 1600/1651
+2026-05-01 15:48:21,410 - INFO - ItemCF training completed.
+2026-05-01 15:48:21,424 - INFO - ItemCF(k=20): RMSE=1.2448, MAE=1.0061, Corr=nan(p=nan)
+2026-05-01 15:48:21,461 - INFO - Start training ItemCF (Pearson), k=30
+2026-05-01 15:48:21,530 - INFO - ItemCF progress: 0/1651
+2026-05-01 15:48:27,362 - INFO - ItemCF progress: 200/1651
+2026-05-01 15:48:31,161 - INFO - ItemCF progress: 400/1651
+2026-05-01 15:48:33,673 - INFO - ItemCF progress: 600/1651
+2026-05-01 15:48:34,959 - INFO - ItemCF progress: 800/1651
+2026-05-01 15:48:35,587 - INFO - ItemCF progress: 1000/1651
+2026-05-01 15:48:36,647 - INFO - ItemCF progress: 1200/1651
+2026-05-01 15:48:36,744 - INFO - ItemCF progress: 1400/1651
+2026-05-01 15:48:36,762 - INFO - ItemCF progress: 1600/1651
+2026-05-01 15:48:36,762 - INFO - ItemCF training completed.
+2026-05-01 15:48:36,774 - INFO - ItemCF(k=30): RMSE=1.2448, MAE=1.0061, Corr=nan(p=nan)
+2026-05-01 15:48:36,775 - INFO - SVD n_factors sensitivity...
+2026-05-01 15:48:36,775 - INFO - Training SVD (n_factors=50)...
+2026-05-01 15:48:37,369 - INFO - SVD training completed.
+2026-05-01 15:48:37,452 - INFO - SVD(factors=50): RMSE=0.9348, MAE=0.7377, Corr=0.5622(p=0.00e+00)
+2026-05-01 15:48:37,452 - INFO - Training SVD (n_factors=100)...
+2026-05-01 15:48:38,092 - INFO - SVD training completed.
+2026-05-01 15:48:38,149 - INFO - SVD(factors=100): RMSE=0.9352, MAE=0.7375, Corr=0.5617(p=0.00e+00)
+2026-05-01 15:48:38,149 - INFO - Training SVD (n_factors=200)...
+2026-05-01 15:48:39,062 - INFO - SVD training completed.
+2026-05-01 15:48:39,119 - INFO - SVD(factors=200): RMSE=0.9400, MAE=0.7411, Corr=0.5554(p=0.00e+00)
+2026-05-01 15:48:39,502 - INFO - Saved: ./recsys_experiment/figures/hyperparam_sensitivity.png
+2026-05-01 15:48:39,502 - INFO - ============================== Sparsity Robustness Experiment ==============================
+2026-05-01 15:48:39,502 - INFO - Loading MovieLens-100K dataset...
+2026-05-01 15:48:39,678 - INFO - Users=943, Items=1651, Ratings=80000
+2026-05-01 15:48:39,678 - INFO - Sparsity=0.9486, Avg rating=3.53
+2026-05-01 15:48:39,678 - INFO - Train=80000, Test=20000
+2026-05-01 15:48:39,701 - INFO - Sparsity level: Low Sparsity
+(keep 80%) | keep_ratio=0.8
+2026-05-01 15:48:39,816 - INFO - Start training ItemCF (Pearson), k=20
+2026-05-01 15:48:39,849 - INFO - ItemCF progress: 0/1611
+2026-05-01 15:48:43,155 - INFO - ItemCF progress: 200/1611
+2026-05-01 15:48:45,372 - INFO - ItemCF progress: 400/1611
+2026-05-01 15:48:46,845 - INFO - ItemCF progress: 600/1611
+2026-05-01 15:48:47,656 - INFO - ItemCF progress: 800/1611
+2026-05-01 15:48:47,967 - INFO - ItemCF progress: 1000/1611
+2026-05-01 15:48:48,098 - INFO - ItemCF progress: 1200/1611
+2026-05-01 15:48:48,126 - INFO - ItemCF progress: 1400/1611
+2026-05-01 15:48:48,132 - INFO - ItemCF progress: 1600/1611
+2026-05-01 15:48:48,132 - INFO - ItemCF training completed.
+2026-05-01 15:48:52,889 - INFO -   ItemCF RMSE=1.2162
+2026-05-01 15:48:52,889 - INFO - Training SVD (n_factors=100)...
+2026-05-01 15:48:53,379 - INFO - SVD training completed.
+2026-05-01 15:48:53,433 - INFO -   SVD RMSE=0.9462
+2026-05-01 15:48:53,433 - INFO - Sparsity level: Mid Sparsity
+(keep 50%) | keep_ratio=0.5
+2026-05-01 15:48:53,524 - INFO - Start training ItemCF (Pearson), k=20
+2026-05-01 15:48:53,547 - INFO - ItemCF progress: 0/1529
+2026-05-01 15:48:55,522 - INFO - ItemCF progress: 200/1529
+2026-05-01 15:48:56,796 - INFO - ItemCF progress: 400/1529
+2026-05-01 15:48:57,587 - INFO - ItemCF progress: 600/1529
+2026-05-01 15:48:57,960 - INFO - ItemCF progress: 800/1529
+2026-05-01 15:48:58,105 - INFO - ItemCF progress: 1000/1529
+2026-05-01 15:48:58,154 - INFO - ItemCF progress: 1200/1529
+2026-05-01 15:48:58,167 - INFO - ItemCF progress: 1400/1529
+2026-05-01 15:48:58,169 - INFO - ItemCF training completed.
+2026-05-01 15:49:01,377 - INFO -   ItemCF RMSE=1.2266
+2026-05-01 15:49:01,378 - INFO - Training SVD (n_factors=100)...
+2026-05-01 15:49:01,631 - INFO - SVD training completed.
+2026-05-01 15:49:01,694 - INFO -   SVD RMSE=0.9617
+2026-05-01 15:49:01,694 - INFO - Sparsity level: High Sparsity
+(keep 20%) | keep_ratio=0.2
+2026-05-01 15:49:01,735 - INFO - Start training ItemCF (Pearson), k=20
+2026-05-01 15:49:01,746 - INFO - ItemCF progress: 0/1358
+2026-05-01 15:49:02,219 - INFO - ItemCF progress: 200/1358
+2026-05-01 15:49:02,518 - INFO - ItemCF progress: 400/1358
+2026-05-01 15:49:02,664 - INFO - ItemCF progress: 600/1358
+2026-05-01 15:49:02,735 - INFO - ItemCF progress: 800/1358
+2026-05-01 15:49:02,764 - INFO - ItemCF progress: 1000/1358
+2026-05-01 15:49:02,775 - INFO - ItemCF progress: 1200/1358
+2026-05-01 15:49:02,777 - INFO - ItemCF training completed.
+2026-05-01 15:49:03,552 - INFO -   ItemCF RMSE=1.2296
+2026-05-01 15:49:03,552 - INFO - Training SVD (n_factors=100)...
+2026-05-01 15:49:03,630 - INFO - SVD training completed.
+2026-05-01 15:49:03,682 - INFO -   SVD RMSE=0.9879
+2026-05-01 15:49:03,920 - INFO - Saved: ./recsys_experiment/figures/sparsity_robustness.png
+2026-05-01 15:49:03,957 - INFO - ================================================== Experiment Conclusion ==================================================
+2026-05-01 15:49:03,957 - INFO - ItemCF  : RMSE=1.2448, MAE=1.0061
+2026-05-01 15:49:03,957 - INFO - SVD     : RMSE=0.9352,    MAE=0.7375
+2026-05-01 15:49:03,957 - INFO - Hybrid  : RMSE=0.9352, MAE=0.7375
+2026-05-01 15:49:03,957 - INFO - Best model by RMSE: SVD (0.9352)
+2026-05-01 15:49:03,957 - INFO - SVD缓解稀疏：全局隐因子分解，不依赖用户-物品共现
+2026-05-01 15:49:03,958 - INFO - 混合推荐：ItemCF提升可解释性，SVD保证冷启动稳健性，加权融合兼得两者优势
+2026-05-01 15:49:03,958 - INFO - ==============================================================================================================
